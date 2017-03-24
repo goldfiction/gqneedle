@@ -1,0 +1,12 @@
+{
+  "name": "gqneedle",
+  "version": "0.0.1",
+  "main":"./main.js",
+  "dependencies":{
+    "needle":"1.5.2",
+    "gqdoq":"1.0.1"
+  },
+  "description":"gqneedle (1.1M) is a simple script for executing q_tree compliant smart-request. It is a pipe through for needle module. With a hint of doQ module.",
+  "repository":"https://github.com/goldfiction/gqneedle.git",
+  "license":"MIT"
+}
