@@ -2,6 +2,7 @@
   "name": "gqneedle",
   "version": "0.0.1",
   "main":"./main.js",
+  "private":false,
   "dependencies":{
     "needle":"1.5.2",
     "gqdoq":"1.0.1"
