@@ -11,9 +11,9 @@ var request=function(o,cb){
     o.params= o.params||{};
     o.options= o.options||{};
     o.options.follow_max=10;
-    needle.request(o.method, o.url, o.params, o.options, function(e,r){
+    needle.request(o.method, o.url, o.params, o.options, function(e,r,b){
         o.statusCode=r.statusCode;
-        o.result=r.body.toString();
+        o.result=JSON.stringify(b,null,2);
         cb(e,o);
     });
 };
